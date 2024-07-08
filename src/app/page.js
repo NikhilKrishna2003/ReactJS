@@ -43,7 +43,7 @@ const page = () => {
 
   return (
     <div>
-      <h1 className='py-5 mr-2 hover:bg-blue-400 transition-colors hover:text-blue-900 ml-2 flex justify-center items-center text-2xl semibold bg-black text-white rounded-full mt-2'>
+      <h1 className='py-5 mr-2 hover:bg-grey-200 transition-colors hover:text-grey-600 ml-2 flex justify-center items-center text-2xl semibold bg-black text-white rounded-full mt-2'>
           Nikhil's Todo List
       </h1>
       <form onSubmit={submitHandler} className='flex justify-center items-center gap-20 mt-10'>
